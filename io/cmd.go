@@ -155,8 +155,8 @@ func GetRegExp(regex string) (*regexp.Regexp, error) {
 }
 
 // RegExp - The regexp that the line will be searched upon.
-// matchedResults - The slice result that was found by the regex
-// line - The output line from the external process
+// MatchedResults - The slice result that was found by the regex
+// Line - The output line from the external process
 // ExecFunc - The function to execute
 type CmdOutputPattern struct {
 	RegExp         *regexp.Regexp
